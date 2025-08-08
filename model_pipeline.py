@@ -41,7 +41,7 @@ if "date_published" in df_clean.columns:
     df_clean["is_weekend"] = df_clean["publish_dayofweek"].isin([5, 6]).astype(int)
 
 # Feature selection
-cols_to_drop = ["dopamine_label", "video_id", "channel_name", "video_title", "visual_reward", "date_published", "Unnamed: 0", "Unnamed: 1", "view_count"]
+cols_to_drop = ["dopamine_label", "video_id", "channel_name", "video_title", "date_published",  "view_count"]
 X = df_clean.drop(columns=cols_to_drop, errors="ignore")
 y = df_clean["dopamine_label"]
 
@@ -90,7 +90,7 @@ def objective_xgboost(trial):
     }
     pipeline = Pipeline([
         ('preprocessor', preprocessor),
-        ('classifier', XGBClassifier(random_state=42, eval_metric='logloss', use_label_encoder=False))
+        ('classifier', XGBClassifier(random_state=42, eval_metric='logloss',))
     ])
     pipeline.set_params(**params)
     return cross_val_score(pipeline, X_train, y_train, cv=cv_strategy, scoring='roc_auc', n_jobs=-1).mean()
