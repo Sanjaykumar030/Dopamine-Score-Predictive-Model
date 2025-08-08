@@ -126,7 +126,7 @@ for model_name, objective_func in objectives.items():
             ("classifier", base_model(random_state=42))
         ])
         if model_name == "XGBoost":
-            best_params.update({"classifier__eval_metric": "logloss", "classifier__use_label_encoder": False})
+            best_params.update({"classifier__eval_metric": "logloss"})
         else:
             best_params["classifier__n_jobs"] = -1
         model.set_params(**best_params)
@@ -196,10 +196,15 @@ for model_name, model in models.items():
             plt.title("Random Forest Feature Importance")
             plt.tight_layout()
             plt.show()
-
             shap.plots.beeswarm(shap_values[:, :, 1], max_display=15)
-        else:
+        elif model_name == "XGBoost":
+            importances = classifier.feature_importances_
+            pd.Series(importances, index=feature_names).sort_values(ascending=False).head(20).plot(kind="bar", figsize=(12, 6))
+            plt.title("XGBoost Feature Importance")
+            plt.tight_layout()
+            plt.show()
             shap.summary_plot(shap_values, X_test_df)
+
 
 # Step 6: Learning Curve Visualization
 def plot_learning_curve(estimator, X, y, title):
