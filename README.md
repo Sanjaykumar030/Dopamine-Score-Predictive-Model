@@ -130,5 +130,36 @@ pip install -r requirements.txt
 
 # Run model pipeline
 python model_pipeline.py
+```
+## 📄 License  
+
+This project is released under the **MIT License**.  
+You are free to use, modify, and distribute this work, provided that proper credit is given to the author and that you include the same license in derivative works.  
+
+See the [LICENSE](LICENSE) file for full license details.  
+
+---
+
+## 📬 Contact  
+
+- **Author:** Sanjay Kumar Sakamuri Kamalakar
+- **GitHub:** [@Sanjaykumar030](https://github.com/Sanjaykumar030)  
+- **Email:** [sksanjaykumar010307@gmail.com](mailto:sksanjaykumar010307@gmail.com)
+- **LinkedIn:** [linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214](https://linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214)
+- **ORCID:** [0009-0009-1021-2297](https://orcid.org/0009-0009-1021-2297) 
+- **Dataset DOI:** [10.5281/zenodo.16755363](https://doi.org/10.5281/zenodo.16755363)  
+
+For research collaborations, dataset usage inquiries, or speaking opportunities, please open an [issue](https://github.com/Sanjaykumar030/Dopamine-Stimuli-Predictive-Model/issues) in this repository or reach out via email.  
+
+---
+## 🙏 Acknowledgements  
+
+- **ChatGPT** and **Google Gemini** – for providing technical references, literature context, and code review support during model development.  
+- **Jivanthikaa** – for co-contributing to the manual dataset annotation process, ensuring balanced and unbiased labeling.  
+
+## 🏁 Closing Note  
+
+This project bridges **machine learning research** with **children’s media studies**, aiming to provide both technical innovation and ethical insights.  
+By making the dataset and models open-source, we invite **researchers, policy-makers, and developers** to build upon this work to create safer, more mindful media ecosystems for young audiences.  
 
 
