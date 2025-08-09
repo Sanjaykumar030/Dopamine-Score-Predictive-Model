@@ -152,12 +152,12 @@ See the [LICENSE](LICENSE) file for the full license text.
 For collaborations, dataset usage permissions, or media inquiries, please open an [issue](https://github.com/Sanjaykumar030/Dopamine-Stimuli-Predictive-Model/issues) or reach out via email.  
 
 ---
-
 ## 🙏 Acknowledgements  
 
 The author gratefully acknowledges:  
-- **ChatGPT** and **Google Gemini** — for technical references, literature guidance, and code review support during model development.  
-- **Jivanthikaa** — for co-contributing to the manual dataset annotation process, ensuring balanced and unbiased labeling.  
+- Support from AI tools such as ChatGPT and Google Gemini for technical references and code review assistance during model development.  
+- **Jivanthikaa** — co-authoring the manual dataset annotation process, ensuring balanced and unbiased labeling.  
+
 
 ---
 
@@ -169,7 +169,6 @@ By releasing the dataset and models as open-source, this work invites **research
 ## 📚 Citation
 
 If you use this dataset or project in your research, please cite:
-- S. Sakamuri and J. Kumaravadivel, ‘Dopamine-Triggering Indicators in Children's YouTube Videos: A Dataset for Machine Learning’. Zenodo, Aug. 06, 2025. doi: 10.5281/zenodo.16755363.
+> S. Sakamuri and J. Kumaravadivel, ‘Dopamine-Triggering Indicators in Children's YouTube Videos: A Dataset for Machine Learning’. Zenodo, Aug. 06, 2025. doi: 10.5281/zenodo.16755363.
 ## 🔗 Dataset Repository:
-For more dataset information refer to (https://github.com/Sanjaykumar030/Dopamine-YouTube-Kids-Dataset) repository.
-
+For more dataset information, refer to the [Dopamine-YouTube-Kids-Dataset repository](https://github.com/Sanjaykumar030/Dopamine-YouTube-Kids-Dataset).
