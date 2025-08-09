@@ -6,7 +6,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)  
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow)  
 ![ML](https://img.shields.io/badge/Machine%20Learning-RandomForest%20%7C%20XGBoost%20%7C%20CatBoost-orange)  
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16755363.svg)](https://doi.org/10.5281/zenodo.16755363)
 ---
 
 ## 📜 Overview  
@@ -134,32 +134,42 @@ python model_pipeline.py
 ## 📄 License  
 
 This project is released under the **MIT License**.  
-You are free to use, modify, and distribute this work, provided that proper credit is given to the author and that you include the same license in derivative works.  
+You may use, modify, and distribute this work with attribution, and must include the same license in derivative works.  
 
-See the [LICENSE](LICENSE) file for full license details.  
+See the [LICENSE](LICENSE) file for the full license text.  
 
 ---
 
 ## 📬 Contact  
 
-- **Author:** Sanjay Kumar Sakamuri Kamalakar
+- **Author:** Sanjay Kumar Sakamuri Kamalakar  
 - **GitHub:** [@Sanjaykumar030](https://github.com/Sanjaykumar030)  
-- **Email:** [sksanjaykumar010307@gmail.com](mailto:sksanjaykumar010307@gmail.com)
-- **LinkedIn:** [linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214](https://linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214)
-- **ORCID:** [0009-0009-1021-2297](https://orcid.org/0009-0009-1021-2297) 
+- **Email:** [sksanjaykumar010307@gmail.com](mailto:sksanjaykumar010307@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214](https://linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214)  
+- **ORCID:** [0009-0009-1021-2297](https://orcid.org/0009-0009-1021-2297)  
 - **Dataset DOI:** [10.5281/zenodo.16755363](https://doi.org/10.5281/zenodo.16755363)  
 
-For research collaborations, dataset usage inquiries, or speaking opportunities, please open an [issue](https://github.com/Sanjaykumar030/Dopamine-Stimuli-Predictive-Model/issues) in this repository or reach out via email.  
+For collaborations, dataset usage permissions, or media inquiries, please open an [issue](https://github.com/Sanjaykumar030/Dopamine-Stimuli-Predictive-Model/issues) or reach out via email.  
 
 ---
+
 ## 🙏 Acknowledgements  
 
-- **ChatGPT** and **Google Gemini** – for providing technical references, literature context, and code review support during model development.  
-- **Jivanthikaa** – for co-contributing to the manual dataset annotation process, ensuring balanced and unbiased labeling.  
+The author gratefully acknowledges:  
+- **ChatGPT** and **Google Gemini** — for technical references, literature guidance, and code review support during model development.  
+- **Jivanthikaa** — for co-contributing to the manual dataset annotation process, ensuring balanced and unbiased labeling.  
+
+---
 
 ## 🏁 Closing Note  
 
-This project bridges **machine learning research** with **children’s media studies**, aiming to provide both technical innovation and ethical insights.  
-By making the dataset and models open-source, we invite **researchers, policy-makers, and developers** to build upon this work to create safer, more mindful media ecosystems for young audiences.  
+This project bridges **machine learning research** with **children’s media studies**, contributing both technical innovation and ethical perspective.  
+By releasing the dataset and models as open-source, this work invites **researchers, policymakers, and developers** to extend its findings and help shape safer, more mindful media ecosystems for young audiences.  
 
+## 📚 Citation
+
+If you use this dataset or project in your research, please cite:
+- S. Sakamuri and J. Kumaravadivel, ‘Dopamine-Triggering Indicators in Children's YouTube Videos: A Dataset for Machine Learning’. Zenodo, Aug. 06, 2025. doi: 10.5281/zenodo.16755363.
+## 🔗 Dataset Repository:
+For more dataset information refer to (https://github.com/Sanjaykumar030/Dopamine-YouTube-Kids-Dataset) repository.
 
